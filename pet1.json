@@ -1,0 +1,232 @@
+{
+  "@context": ["http://www.w3.org/ns/csvw",{"@language": "cs"}],
+  "url": "pet1.csv",
+  "dc:description": "Data z tiskopisu T/1 zápisu komise v kompletní podobì (široká struktura) - hlasy", 
+  "tableSchema": { 
+    "columns": [{
+      "name": "TYP_FORM",
+      "titles": "TYP_FORM",
+      "dc:description": "Obsah dat ve vìtì (1 = T/4, 2 = pøíloha T/4, 3 = souètová vìta TS)",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "OPRAVA",
+      "titles": "OPRAVA",
+      "dc:description": "Pøíznak dodateèné opravy na pøebíracím místì v pøípadì chyby (1 = opraven, 0 = neopraven)",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "CHYBA",
+      "titles": "CHYBA",
+      "dc:description": "Pøíznak chyby (pustitelné) v datech (1 = je chyba, 0 = není chyba)",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "OKRES",
+      "titles": "OKRES",
+      "dc:description": "Kód okresu dle CNUMNUTS",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "OBEC",
+      "titles": "OBEC",
+      "dc:description": "Kód obce dle COCO",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "OKRSEK",
+      "titles": "OKRSEK",
+      "dc:description": "Èíslo okrsku v rámci obce",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "KC_1",
+      "titles": "KC_1",
+      "dc:description": "Kontrolní èíslo 1 (MODULO7)",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "KOLO",
+      "titles": "KOLO",
+      "dc:description": "Èíslo kola volby (1 nebo 2)",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "VOL_SEZNAM",
+      "titles": "VOL_SEZNAM",
+      "dc:description": "Poèet osob, zapsaných do výpisu ze stálého a zvláštního seznamu",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "VYD_OBALKY",
+      "titles": "VYD_OBALKY",
+      "dc:description": "Poèet volièù, kterým byly vydány úøední obálky",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "ODEVZ_OBAL",
+      "titles": "ODEVZ_OBAL",
+      "dc:description": "Poèet odevzdaných úøedních obálek",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "PL_HL_CELK",
+      "titles": "PL_HL_CELK",
+      "dc:description": "Poèet platných hlasù ve volebním okrsku celkem",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "KC_2",
+      "titles": "KC_2",
+      "dc:description": "Kontrolní èíslo 2",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "HLASY_01",
+      "titles": "HLASY_01",
+      "dc:description": "Poèet hlasù pro kandidáta s poøadovým èíslem 1",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "HLASY_02",
+      "titles": "HLASY_02",
+      "dc:description": "Poèet hlasù pro kandidáta s poøadovým èíslem 2",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "HLASY_03",
+      "titles": "HLASY_03",
+      "dc:description": "Poèet hlasù pro kandidáta s poøadovým èíslem 3",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "HLASY_04",
+      "titles": "HLASY_04",
+      "dc:description": "Poèet hlasù pro kandidáta s poøadovým èíslem 4",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "HLASY_05",
+      "titles": "HLASY_05",
+      "dc:description": "Poèet hlasù pro kandidáta s poøadovým èíslem 5",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "HLASY_06",
+      "titles": "HLASY_06",
+      "dc:description": "Poèet hlasù pro kandidáta s poøadovým èíslem 6",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "HLASY_07",
+      "titles": "HLASY_07",
+      "dc:description": "Poèet hlasù pro kandidáta s poøadovým èíslem 7",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "HLASY_08",
+      "titles": "HLASY_08",
+      "dc:description": "Poèet hlasù pro kandidáta s poøadovým èíslem 8",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "HLASY_09",
+      "titles": "HLASY_09",
+      "dc:description": "Poèet hlasù pro kandidáta s poøadovým èíslem 9",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "HLASY_10",
+      "titles": "HLASY_10",
+      "dc:description": "Poèet hlasù pro kandidáta s poøadovým èíslem 10",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "HLASY_11",
+      "titles": "HLASY_11",
+      "dc:description": "Poèet hlasù pro kandidáta s poøadovým èíslem 11",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "HLASY_12",
+      "titles": "HLASY_12",
+      "dc:description": "Poèet hlasù pro kandidáta s poøadovým èíslem 12",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "HLASY_13",
+      "titles": "HLASY_13",
+      "dc:description": "Poèet hlasù pro kandidáta s poøadovým èíslem 13",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "HLASY_14",
+      "titles": "HLASY_14",
+      "dc:description": "Poèet hlasù pro kandidáta s poøadovým èíslem 14",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "HLASY_15",
+      "titles": "HLASY_15",
+      "dc:description": "Poèet hlasù pro kandidáta s poøadovým èíslem 15",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "HLASY_16",
+      "titles": "HLASY_16",
+      "dc:description": "Poèet hlasù pro kandidáta s poøadovým èíslem 16",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "HLASY_17",
+      "titles": "HLASY_17",
+      "dc:description": "Poèet hlasù pro kandidáta s poøadovým èíslem 17",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "HLASY_18",
+      "titles": "HLASY_18",
+      "dc:description": "Poèet hlasù pro kandidáta s poøadovým èíslem 18",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "HLASY_19",
+      "titles": "HLASY_19",
+      "dc:description": "Poèet hlasù pro kandidáta s poøadovým èíslem 19",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "HLASY_20",
+      "titles": "HLASY_20",
+      "dc:description": "Poèet hlasù pro kandidáta s poøadovým èíslem 20",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "KC_3",
+      "titles": "KC_3",
+      "dc:description": "Kontrolní èíslo 3",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "KC_4",
+      "titles": "KC_4",
+      "dc:description": "Kontrolní èíslo 4",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "POSL_KAND",
+      "titles": "POSL_KAND",
+      "dc:description": "Poslední èíslo kandidáta, který získal hlasy",
+      "required": true,
+      "datatype": "number"
+    },{
+      "name": "KC_SUM",
+      "titles": "KC_SUM",
+      "dc:description": "Sumární kontrolní èíslo pøílohy T1",
+      "required": true,
+      "datatype": "number"
+    }
+    ],
+    "primaryKey": ["KOLO","OBEC","OKRSEK"]
+  }
+}
